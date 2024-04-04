@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int a, b
+    printf("\nEnter the first number to add: ");
+    scanf("%d", &a);
+    printf("\nEnter the second number to add: ");
+    scanf("%d", &b);
+
+    int result = a + b;
+
+    printf("\nThe result of addition is: %d\n", &result);
+
+    return 0;
+}
